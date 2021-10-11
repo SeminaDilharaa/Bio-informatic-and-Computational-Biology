@@ -1,0 +1,9 @@
+oddsum = 0
+evensum =0
+for i in range(1, 10):
+  if i % 2 != 0: 
+    oddsum += i
+  else :
+    evensum +=i
+print("Sumation of odd number is: ",oddsum)
+print("Sumation of even number is: ",evensum)
